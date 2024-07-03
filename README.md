@@ -1,6 +1,9 @@
 # rebas.tw Open Data
 野球革命｜台灣棒球進階資料庫｜原始數據共享計劃
 
+## 📦[原始數據](./releases)
+> 部分資料為手動紀錄，非球場儀器量測
+
 ## 共享緣起
 台灣棒球參與人數眾多，不乏許多熱切關注也有程式或數據分析能力的球迷。
 不過原始資料的取得，至今仍是許多好想法會被擱置的主要原因之一。
@@ -18,12 +21,12 @@
 我們將資料分成 6 張主要的表格，透過 json 格式巢狀儲存
 | 表格名稱 | 表格定義 | 關係 |
 | - | :-: | :-: |
-| game | 比賽 |  |
-| batterBox | 打者成績 |  |
-| pitcherBox | 投手成績 |  |
-| PA | 打席內容 | 一場比賽有 1 - n 個 PA |
-| event | 事件（投球, 盜壘等） | 一個 PA 有 1 - n 個 event |
-| runner | 跑者 | 一個 event 有 0 - n 個 runner |
+| [game](./schema/game.md) | 比賽 |  |
+| [batterBox](./schema/batterBox.md) | 打者成績 |  |
+| [pitcherBox](./schema/pitcherBox.md) | 投手成績 |  |
+| [PA](./schema/PA.md) | 打席內容 | 一場比賽有 1 - n 個 PA |
+| [event](./schema/event.md) | 事件（投球, 盜壘等） | 一個 PA 有 1 - n 個 event |
+| [runner](./schema/runner.md) | 跑者 | 一個 event 有 0 - n 個 runner |
 
 
 ## 使用原則

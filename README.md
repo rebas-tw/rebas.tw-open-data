@@ -1,5 +1,6 @@
 # rebas.tw Open Data
 野球革命｜台灣棒球進階資料庫｜原始數據共享計劃
+![cover](./cover.png)
 
 ## 📦[原始數據](https://github.com/rebas-tw/rebas.tw-open-data/releases)
 > 部分資料為手動紀錄，非球場儀器量測

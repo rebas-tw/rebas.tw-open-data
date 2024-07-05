@@ -3,9 +3,9 @@
 
 | 欄位名稱 | 欄位型態 | 欄位說明 | 範例 | 備註 |
 | - | - | - | - | - |
-| type | [RUNNER TYPE](#runner-type) | 跑壘型態 |  |  |
-| runnerName | String | 跑者名稱 | PA |  |
-| isOut | Boolean | 是出局 | 陳晨威 |  |
+| type | [RUNNER TYPE](#runner-type) | 跑壘型態 | PA |  |
+| runnerName | String | 跑者名稱 | 陳晨威 |  |
+| isOut | Boolean | 是出局 | false |  |
 | scored | Boolean | 是得分 | false |  |
 | isRBI | Boolean | 是打者的打點 | false |  |
 | isER | Boolean | 是投手責失 | false |  |

@@ -21,6 +21,7 @@
 | bases | [BASES](#bases) | 結束打席前壘包狀況 | 0 |  |
 | homeWE | String | 結束打席前主場勝率 | 0.540 | [數據解釋](https://www.rebas.tw/coefficient?coef=we) |
 | RE | String | 結束打席前得分期望值 | 0.555 | [數據解釋](https://www.rebas.tw/coefficient?coef=re) |
+| pitchCodes | [][PITCH CODE](./event.md#pitch-code) | 投球結果列表 | ["B", "H"] |  |
 | events | [][event](./event.md) | 打席內事件 |  |  |
 | results | [RESULT](#result) | 打席結果 | uBB |  |
 | RBI | Int | 打點 | 0 |  |
